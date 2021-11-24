@@ -11,6 +11,8 @@ Tutorial on how to use Jenkins with GitHub and take advantage of the polling sys
   - [Adding repository polling on GitHub](#adding-repository-polling-on-github)
   - [Jenkins configuration with GitHub Polling on Push](#jenkins-configuration-with-github-polling-on-push)
 - [Example of Jenkinsfile](#example-of-jenkinsfile)
+- [Common errors in Jenkinsfile](#common-errors-in-jenkinsfile)
+  - [Authentication error in Jenkins on using sudo](#authentication-error-in-jenkins-on-using-sudo)
 
 ## Installation
 
@@ -173,3 +175,11 @@ pipeline{
     }
 }
 ```
+
+## Common errors in Jenkinsfile
+### Authentication error in Jenkins on using sudo
+```bash
+sudo su    
+visudo -f /etc/sudoers
+```
+add the following line at the end: ```jenkins ALL= NOPASSWD: ALL```
