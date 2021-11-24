@@ -1,6 +1,17 @@
 # Jenkins GitHub Polling
 Tutorial on how to use Jenkins with GitHub and take advantage of the polling system.
 
+# Table Of Contents
+- [Installation](#installation)
+  - [Java](#java)
+  - [Jenkins](#jenkins)
+- [Configuration](#configuration)
+  - [Jenkins](#jenkins-1)
+  - [Adding GitHub Credentials](#adding-github-credentials)
+  - [Adding repository polling on GitHub](#adding-repository-polling-on-github)
+  - [Jenkins configuration with GitHub Polling on Push](#jenkins-configuration-with-github-polling-on-push)
+- [Example of Jenkinsfile](#example-of-jenkinsfile)
+
 ## Installation
 
 ### Java
