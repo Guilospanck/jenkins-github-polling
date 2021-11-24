@@ -1,5 +1,5 @@
 # Jenkins GitHub Polling
-Tutorial 0n how to use Jenkins with GitHub and take advantage of the polling system.
+Tutorial on how to use Jenkins with GitHub and take advantage of the polling system.
 
 ## Installation
 
